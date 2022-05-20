@@ -2,8 +2,8 @@
 #
 
 # git config
-git config --global user.name "Ryan Simmen"
-git config --global user.email "ryansimmen@github.com"
+git config --global user.name "steph-sabotasan"
+git config --global user.email "80356791+steph-sabotasan@users.noreply.github.com"
 git config --global core.editor vim
 git config --global pager.branch false
 git config --global push.default current

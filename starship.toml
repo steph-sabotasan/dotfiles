@@ -1,0 +1,19 @@
+# ~/.config/starship.toml
+
+# Only show git info if inside a git repo
+[git_status]
+disabled = false
+
+# Customize prompt order
+format = """
+$username \
+$directory \
+$git_branch$git_state $git_status \
+$character
+"""
+
+# Change the prompt character
+[character]
+success_symbol = "❯"
+error_symbol = "✗"
+
